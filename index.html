@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BookRecommend</title>
+</head>
+<body>
+    <header>
+        <h1>BookRecommend</h1>
+    </header>
+
+    <main>
+        <section id="recommendations">
+            <!-- Форма для добавления рекомендаций -->
+            <form id="addRecommendationForm">
+                <input type="text" id="bookTitle" placeholder="Название книги" required>
+                <input type="text" id="bookAuthor" placeholder="Автор книги" required>
+                <button type="submit">Добавить</button>
+            </form>
+            <div id="recommendationsList">
+                <!-- Список рекомендаций -->
+            </div>
+        </section>
+
+        <section id="user-profile">
+            <!-- Профиль пользователя -->
+            <div id="profileDetails">
+                <!-- Информация о пользователе -->
+            </div>
+            <div id="userRecommendations">
+                <!-- Рекомендации пользователя -->
+            </div>
+        </section>
+
+        <section id="chat">
+            <!-- Чат/Форум для обсуждения -->
+            <div id="chatMessages">
+                <!-- Сообщения чата -->
+            </div>
+            <form id="chatForm">
+                <input type="text" id="messageInput" placeholder="Введите сообщение...">
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+        <!-- Добавленная форма регистрации -->
+<section id="registration">
+    <h2>Регистрация</h2>
+    <form id="registrationForm">
+        <input type="text" id="username" placeholder="Имя пользователя" required>
+        <input type="password" id="password" placeholder="Пароль" required>
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+</section>
+    </main>
+    <footer>
+        <p>&copy; 2023 BookRecommend</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
